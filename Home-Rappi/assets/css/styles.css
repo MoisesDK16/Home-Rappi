@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.mural-info {
+    margin-top: 8rem;
+}
+
+.custom-color {
+    color: #ff7f50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 900px){
+    .search{
+        max-width: calc(100vw - 500px);
+    }
+}
+
+.btn-seccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-seccion-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    font-weight: small;
+    background-color: white;
+
+}
+
+.btn-seccion:hover{
+
+    background-color: #eeefe8b2;
+}
+
+.btn-seccion-2:hover{
+
+    background-color: #eeefe8b2;
+}
+
+.card-category:hover{
+    transform: scale(1.1);
+}
+
+

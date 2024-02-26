@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Home-Rappi/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@549&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar bg-body-tertiary">
+
+            <div class="container-fluid">
+
+                <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                </a>
+
+                <div class="d-flex flex-shrink">
+                    <button class="btn btn-light ms-0"> <span class="custom-color">Rappi-Santo Domingo</span></button>
+                </div>
+
+                <form class="d-flex flex-grow-1 search position-relative" role="search">
+                    <input class="form-control ms-5" type="search" placeholder="Comida,restaurantes,tiendas,productos"
+                        aria-label="Search">
+                    <i class="bi bi-search position-absolute top-50 end-0 translate-middle-y me-2"></i>
+                </form>
+
+                <div class="d-flex flex-shrink mx-3">
+                    <button type="button" class="btn btn-primary"><i class="bi bi-person-circle"></i> Ingresar</button>
+                    <i class="bi bi-cart2 ms-3 mt-2"></i>
+                </div>
+
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <img height="50px" width="80px"
+                            src="https://about.rappi.com/sites/default/files/2021-11/rappi_logo_432x243.jpg">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="d-flex gap-3 justify-content-center">
+                            <button type="button" class="btn btn-success">Ingreso</button>
+                            <button type="button" class="btn btn-success">Registro</button>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex flex-grow-1 justify-content-center">
+                            <button class="border border-0"><img height="30px" width="30px"
+                                    src="https://e7.pngegg.com/pngimages/535/893/png-clipart-computer-icons-discounts-and-allowances-promotion-others-infographic-logo.png">
+                                <span class="fs-5">Descubre nuestras promociones</span></button>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex flex-column flex-grow-1 align-items-start flex-wrap">
+                            <small class="p-2">SECCIONES</small>
+                            <div class="p-2">
+                                <button class="btn-seccion">Restaurantes<i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion">Supermercados<i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion">Farmacia<i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion">Express<i class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex flex-column flex-grow-1 align-items-start flex-wrap">
+                            <small class="p-2">OTROS</small>
+                            <div class="p-2">
+                                <button class="btn-seccion-2">Registra tu restaurante<i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion-2">Registra tu tienda<i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion-2">Quiero ser Rappitender@<i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn-seccion-2">Pauta en Rappi<i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img height="450px"
+                        src="https://images.rappi.com/cms-web/images/bg_image_tablet_1024_6b68b3eba2.webp?q=70"
+                        class="d-block w-100">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container position-absolute top-0 mural-info mx-5">
+                <img height="80px" width="80px"
+                    src="https://img.freepik.com/vector-gratis/dibujos-animados-hamburguesa-deliciosa-aislado_1308-134213.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1708560000&semt=ais"
+                    alt="Hamburguesa deliciosa">
+                <div class="ms-2">
+                    <h1>Hasta 15 días de entregas gratis</h1>
+                    <p>Para tus primeros pedidos en Restaurantes pagando con tarjeta</p>
+                    <button class="btn btn-dark" style="width: 20%;">Pide ahora!</button>
+                    <button class="btn btn-dark" style="width: 20%;">Pide ahora!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <h3 class="fs-4 fw-bold">
+                ¿Necesitas algo más?
+            </h3>
+
+            <div class="d-flex my-5 flex-row flex-wrap gap-5 text-center">
+
+                <div class="card mb-5 card-category" style="width: 15rem;">
+                    <div class="bg-danger text-white">
+                        <img class="mx-auto my-3" style="border-radius: 100px;" height="100px"
+                            src="https://png.pngtree.com/png-clipart/20190313/ourlarge/pngtree-planar-cartoon-street-view-shop-restaurant-and-vendor-elements-png-image_848867.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="mt-5">
+                            <p class="position-absolute bottom-0 bg-primary w-100">Restaurantes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-5 card-category" style="width: 15rem;">
+                    <div class="bg-danger text-white">
+                        <img class="mx-auto my-3" style="border-radius: 100px;" height="100px"
+                            src="https://static.vecteezy.com/system/resources/previews/006/511/539/non_2x/happy-man-shopping-at-supermarket-cartoon-illustration-vector.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="mt-5">
+                            <p class="position-absolute bottom-0 bg-primary w-100">Supermercado</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+</body>
+
+</html>
